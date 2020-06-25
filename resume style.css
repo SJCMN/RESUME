@@ -54,9 +54,9 @@ a:hover {
 }
 
 .logo{
-    grid-column: 5 / 5;
+    grid-column: 4 / 5;
     grid-row: 1 / 2;
-    width: 50px;
+    width: 40px;
 }
 
 .experience-list{
