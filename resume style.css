@@ -53,6 +53,12 @@ a:hover {
     align-self: end;
 }
 
+.logo{
+    grid-column: 5 / 5;
+    grid-row: 1 / 2;
+    width: 50px;
+}
+
 .experience-list{
     font-family: 'Oswald';
     font-style: normal;
