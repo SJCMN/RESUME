@@ -53,10 +53,16 @@ a:hover {
     align-self: end;
 }
 
-.logo{
+.logo-box{
     grid-column: 4 / 5;
     grid-row: 1 / 2;
-    width: 40px;
+}
+
+.logo{
+    width: 70%;
+    object-fit: contain;
+    object-position: center;
+    padding: 10px;
 }
 
 .experience-list{
