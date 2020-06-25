@@ -1,2 +1,2 @@
-# SJCMN.githb.io
+# SJCMN.github.io
 Sam Clavette Resume
