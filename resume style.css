@@ -1,1 +1,51 @@
+body {
+    background-color: whitesmoke;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Oswald Medium 500', sans-serif;
+    height: 100%;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(12, 1fr));
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "d e e e e e e e e e s s"
+        "d f f f f f f f f f s s";
+}
 
+.main-header{
+    grid-area: h;
+    text-transform: uppercase;
+    boarder-bottom: 1px solid black;
+}
+
+.experience-header{
+    grid-area: h;
+    boarder-bottom: 1px solid black;
+}
+
+.experience-list{
+    grid-area: e;
+}
+
+.statement {
+    grid-area: s;
+}
+
+.skills {
+    grid-area: s;
+}
+
+.social {
+    grid-area: s;
+}
+
+.education{
+    grid-area: f;
+}
+
+.experience-dates{
+    grid-area: d;
+    text-align: right;
+}
