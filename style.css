@@ -18,7 +18,7 @@ html, body{
     font-family: 'Oswald';
     font-style: normal;
     font-size: 1.5em;
-    color: rgb(126, 69, 23);
+    color: rgb(17, 17, 17);
 }
 
 .copy{
@@ -28,7 +28,7 @@ html, body{
 }
 
 a {
-    color: rgba(126, 69, 23, 0.76)
+    color: rgb(17, 17, 17)
 }
 
 a:hover {
@@ -68,7 +68,7 @@ a:hover {
 .experience-list{
     font-family: 'Oswald';
     font-style: normal;
-    background-color: rgba(183, 208, 216, 0.76);
+    background-color: rgb(212, 215, 221);
     grid-column: 2 / 4;
     grid-row: 3 / 11;
     flex-flow: column wrap; 
