@@ -5,8 +5,6 @@ html, body{
 
 .res-grid {
     background-color: whitesmoke;
-    margin: 10px;
-    font-size: 18px;
     height: 100%;
     display: grid;
     grid-gap: 6px;
@@ -14,15 +12,35 @@ html, body{
     grid-template-rows: repeat(11, auto);
 }
 
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 2px;
+}
+
+h5 {
+    margin: 1px;
+}
+
+
+.header {
+    font-size: 6rem;
+    margin: 2px;
+}
+    
 .header-label{
     font-family: 'Oswald';
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin: 5px;
     color: rgb(17, 17, 17);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
 }
 
 .copy{
-    font-family: 'Oswald';
+    font-family: 'Open Sans';
     font-style: normal;
     font-size: .8em;
 }
@@ -45,12 +63,13 @@ a:hover {
     text-transform: uppercase;  
 }
 
-.experience-header{
+.experience-label{
     font-family: 'Oswald';
+    font-size: 1.2em;
     font-style: normal;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    align-self: end;
+    
 }
 
 .logo-box{
@@ -62,31 +81,26 @@ a:hover {
     width: 70%;
     object-fit: contain;
     object-position: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 .experience-list{
     font-family: 'Oswald';
     font-style: normal;
-    background-color: rgb(212, 215, 221);
+    /* background-color: rgb(212, 215, 221); */
     grid-column: 2 / 4;
     grid-row: 3 / 11;
     flex-flow: column wrap; 
+    margin-right: 1px;
 }
 
 .experience-item{
-    grid-column: 2 / 4;
-    grid-row: 3 / 4;
     margin: 8px;
-    flex-flow: column wrap; 
 }
 
 .experience-date{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    justify-content: end;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-    flex-flow: column wrap; 
+    margin: 2 px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .experience-decs{
@@ -96,6 +110,10 @@ a:hover {
     justify-content: end;
 }
 
+.details {
+    grid-column: 4 / 5;
+}
+
 .statement {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
@@ -103,15 +121,15 @@ a:hover {
 
 .skills {
     grid-column: 4 / 5;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
 }
 
 .social {
     grid-column: 4 / 5;
-    grid-row: 7 / 8;
+    grid-row: 5 / 6;
 }
                    
 .education{
     grid-column: 4 / 5;
-    grid-row: 9 / 10;
+    grid-row: 6 / 7;
 }
